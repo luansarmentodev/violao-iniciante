@@ -1,6 +1,12 @@
-
-* {
-    margin: 0;
-    padding: 0;
-    border: 0;
+.headstock {
+    width: 400px;
+}
+.violao {
+    width:400px;
+}
+.braco {
+    width: 400px;
+}
+.corpo {
+    width: 400px;
 }
