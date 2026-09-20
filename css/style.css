@@ -286,6 +286,47 @@ main p{
 .site-cifra {
     text-align: center;
 }
+/*Adicionando responsividade*/
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        gap: 15px;
+    }
+    nav {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .logo {
+        width: 50px;
+        height: auto;
+    }
+    main {
+        padding: 35px 20px;
+    }
+    h1 {
+        font-size: 30px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+    .violao {
+        width: 100%;
+        max-width: 400px;
+        height: auto;
+    }
+
+    .cordas {
+        width: 100%;
+        max-width: 600px;
+        height: auto;
+    }
+
+    .parte img {
+        max-width: 100%;
+        height: auto;
+    }
+}
 
 
 
